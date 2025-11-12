@@ -1,9 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.SafeRouteApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.SafeRouteApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/saferoute_purple</item>
+        <item name="colorPrimaryVariant">@color/saferoute_purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/saferoute_blue</item>
+        <item name="colorSecondaryVariant">@color/saferoute_green</item>
+        <item name="colorOnSecondary">@color/white</item>
     </style>
 
     <style name="Theme.SafeRouteApp" parent="Base.Theme.SafeRouteApp" />
 </resources>
+

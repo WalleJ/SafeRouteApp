@@ -1,7 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.SafeRouteApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Base application theme for night mode. -->
+    <style name="Base.Theme.SafeRouteApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/saferoute_light_purple</item>
+        <item name="colorPrimaryVariant">@color/saferoute_purple</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/saferoute_blue</item>
+        <item name="colorSecondaryVariant">@color/saferoute_green</item>
+        <item name="colorOnSecondary">@color/black</item>
     </style>
 </resources>
+

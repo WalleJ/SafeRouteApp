@@ -40,7 +40,7 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp" />
 
-    <!-- ★★★ BOTONES DE ZOOM Y FILTROS DE CRIMEN ★★★ -->
+    <!-- ★★★ NUEVOS BOTONES DE ZOOM Y FILTRO ★★★ -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,29 +50,6 @@
         android:layout_marginBottom="250dp"
         android:orientation="vertical">
 
-        <!-- Filtro para crímenes en vía pública -->
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/street_crime_filter_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_alert_warning"
-            app:backgroundTint="#FF5722"
-            app:fabSize="mini"
-            app:tint="@android:color/white"
-            android:layout_marginBottom="8dp" />
-
-        <!-- Filtro para robos de vehículos -->
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/vehicle_crime_filter_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_alert_warning"
-            app:backgroundTint="#9C27B0"
-            app:fabSize="mini"
-            app:tint="@android:color/white"
-            android:layout_marginBottom="8dp" />
-
-        <!-- Mostrar todas las zonas de peligro -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/danger_zones_button"
             android:layout_width="wrap_content"
@@ -146,35 +123,14 @@
             android:maxLines="1"
             android:layout_marginBottom="16dp"/>
 
-        <LinearLayout
+        <Button
+            android:id="@+id/route_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="16dp">
-
-            <Button
-                android:id="@+id/route_button"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Trazar Rutas"
-                android:backgroundTint="#2196F3"
-                android:drawableLeft="@drawable/ic_destination_marker"
-                android:drawablePadding="8dp"
-                android:layout_marginEnd="8dp" />
-
-            <Button
-                android:id="@+id/vehicle_route_button"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ruta en Vehículo"
-                android:backgroundTint="#4CAF50"
-                android:drawableLeft="@drawable/ic_destination_marker"
-                android:drawablePadding="8dp"
-                android:layout_marginStart="8dp" />
-
-        </LinearLayout>
+            android:text="Trazar Rutas"
+            android:backgroundTint="#2196F3"
+            android:drawableLeft="@drawable/ic_safe_route"
+            android:drawablePadding="8dp" />
 
     </LinearLayout>
 
