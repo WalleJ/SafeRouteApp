@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#C5BADB</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="saferoute_blue">#2196F3</color>
+    <color name="saferoute_green">#4CAF50</color>
+    <color name="saferoute_light_purple">#C5BADB</color>
+    <color name="saferoute_purple">#3E2C5F</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">SafeRoute</string>
+    <style name="Base.Theme.SafeRouteApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/saferoute_purple</item>
+        <item name="colorPrimaryVariant">@color/saferoute_purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/saferoute_blue</item>
+        <item name="colorSecondaryVariant">@color/saferoute_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+    <style name="Theme.SafeRouteApp" parent="Base.Theme.SafeRouteApp"/>
+</resources>
